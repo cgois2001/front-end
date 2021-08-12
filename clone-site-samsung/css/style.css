@@ -1,0 +1,192 @@
+.button {
+    border: none;
+    font-size: 14px;
+    background-color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.button:hover {
+    border: solid 3px black;
+    border-radius: 30px;
+    color: #fff;
+    background-color: black;
+}
+
+.lista-header {
+    font-size: 12px;
+}
+
+.canvas {
+    background-color: #fff;
+    border: none;
+}
+
+.button-itau {
+    border: solid 3px black;
+    border-radius: 30px;
+    color: #fff;
+    background-color: black;
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.icons {
+    background-color: #fff;
+    border: none;
+}
+
+.button-pos-banner {
+    border-left: solid 0.5px grey 
+}
+
+#button-pos-banner {
+    border-left: solid 0.5px grey;
+}
+
+.button-pos-banner:hover {
+    border: none;
+    border: solid 2px blue;
+}
+
+.links-banner {
+    max-width: 100%;
+}
+
+.card-item {
+    border: none;
+}
+
+.link-produtos {
+    text-decoration: none;
+    color: black;
+}
+
+.link-produtos:hover {
+    border-top: solid 0.5px black;
+    color: black;
+    border: none;
+}
+
+.button-produtos {
+    height: 100%;
+}
+
+.button-produtos:hover{
+    border: solid 0.5px;
+}
+
+.titulo-produto {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.n-serie {
+    font-size: 12px;
+    border-bottom:solid 0.5px grey;
+}
+
+.desc-produto {
+    background-color: #fff;
+    border: none;
+}
+
+.lista-desc {
+    color:black;
+    font-size: 13px;
+    text-align: left;
+}
+
+.button-desc {
+    width: 75%;
+    border-radius: 30px;
+    background-color: #1428a0;
+    font-weight: bold;
+}
+
+.button-desc:hover {
+    background-color: #1428a0;
+}
+
+.rodape {
+    border-top: solid 1px black;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-rodape {
+    margin-left: 10px;
+}
+
+.list-rodape {
+    font-size: 14px;
+    line-height: 35px;
+}
+
+.block-rodape {
+    border-right: solid 1px black;
+}
+
+.block-rodape-2 {
+    border-top: solid 0.5px black;
+    border-bottom: solid 0.5px black;
+    margin: 0;
+}
+
+.text-copyright {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links-rodape {
+    text-decoration: none;
+    color:black;
+    font-size: 12px;
+}
+
+.item-rodape {
+    color: black;
+} 
+
+.block-rodape-3 {
+    width: 100%;
+}
+
+.menu-rodape {
+    font-size: 12px;
+}
+
+@media (max-width: 768px) {
+    .lista-header {
+        display: none;
+    }
+    .button-itau {
+        display: none;
+    }
+    .perfil-icon {
+        display: none;
+    }
+    .button-pos-banner {
+        justify-content: center;
+    }
+    #button-pos-banner {
+        justify-content: center;
+    }
+    .block-rodape-3 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 348px) {
+    .icons {
+        justify-content: end;
+    }
+}
+
+@media (min-width: 768px) {
+    .canvas {
+        display: none;
+    }
+}
+
+    
