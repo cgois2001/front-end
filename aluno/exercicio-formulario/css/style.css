@@ -1,0 +1,18 @@
+.certo {
+    display: none;
+    color: green;
+}
+
+.erro {
+    display: none;
+    color: red;
+}
+
+
+.btn-salvar, .btn-cancelar {
+    border: none;
+}
+
+.btn-salvar:hover, .btn-cancelar:hover {
+    opacity: 0.5;
+}

@@ -1,0 +1,18 @@
+body {
+background-color:lemonchiffon;
+}
+input:focus {
+    background-color: blanchedalmond;
+}
+textarea:focus {
+    background-color: blanchedalmond;
+    resize: vertical;
+}
+select:focus {
+    background-color: blanchedalmond;
+}
+button:hover {
+    background-color:darkseagreen;
+    text-decoration:underline;
+    font-weight: bold;
+}

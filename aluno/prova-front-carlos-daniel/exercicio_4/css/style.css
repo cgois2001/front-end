@@ -1,0 +1,4 @@
+.crm-erro, .nome-erro, .qtd-erro, .cpf-erro, .nome-crm-erro, .sexo-erro {
+    display: none;
+    color: red;
+}
